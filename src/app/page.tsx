@@ -7,7 +7,7 @@ export default async function Home() {
   const items = itemsJson ? JSON.parse(itemsJson) : [];
 
   return (
-    <main className="flex w-full min-h-screen flex-col items-center justify-between">
+    <main className="flex w-full min-h-svh flex-col items-center justify-between">
       <div className="flex w-full justify-between items-center border-b px-4 py-2">
         <h1 className="text-lg font-bold">Roulette</h1>
         <AddItemButton items={items} />
